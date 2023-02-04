@@ -3,19 +3,20 @@ import { useParams } from 'react-router-dom';
 import ItemDetail from '../../componentes/ItemDetail';
 import { doc, getDoc } from "firebase/firestore";
 import { db } from '../../firebase/config';
+import Spinner from 'react-bootstrap/Spinner';
 
 const ItemDetailContainer = () => {
 
   const [detail, setDetail] = useState({})
 
-  const {id} = useParams()
+  const { id } = useParams()
 
-  useEffect(()=> {
+  useEffect(() => {
 
     const getProduct = async () => {
       const docRef = doc(db, "products", id);
       const docSnap = await getDoc(docRef);
-  
+
       if (docSnap.exists()) {
         console.log("Document data:", docSnap.data());
         const productDetail = {
@@ -34,11 +35,11 @@ const ItemDetailContainer = () => {
 
   return (
     <div>
-        {
-          Object.keys(detail).length === 0 
-            ? <h2>Loading ...</h2>
-            : <ItemDetail detail={detail}/>
-        }
+      {
+        Object.keys(detail).length === 0
+          ? <Spinner animation="grow" variant="success" />
+          : <ItemDetail detail={detail} />
+      }
     </div>
   )
 }
