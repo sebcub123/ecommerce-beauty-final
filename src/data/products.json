@@ -1,0 +1,98 @@
+[
+    {
+        "id": 1,
+        "title": "Serum Bekim",
+        "price": 120.00,
+        "description": "Serum capilar marca BEKIM, envase con atomizador x30ml",
+        "category": "Serums",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589327/react/serumbekim_wndclk.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 120
+        }
+    },
+    {
+        "id": 2,
+        "title": "Protector termico YILHO",
+        "price": 200,
+        "description": "Protector termico capilar marca YILHO, envase con atomizador, presentacion x 150ml.",
+        "category": "Protectores Termicos",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589327/react/protector_yilho_risy09.png",
+        "rating": {
+            "rate": 4.1,
+            "count": 259
+        }
+    },
+    {
+        "id": 3,
+        "title": "Crema de peinar RBX",
+        "price": 150,
+        "description": "Crema de peinar para todo tipo de cabellos RBX, presentacion x 300ml.",
+        "category": "Cremas de peinar",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589326/react/cremapeinarrbx_qkghg2.jpg",
+        "rating": {
+            "rate": 4.7,
+            "count": 500
+        }
+    },
+    {
+        "id": 4,
+        "title": "Crema de peinar Fidelite",
+        "price": 220,
+        "description": "Crema de peinar argan negra FIDELITE, presentacion x300ml.",
+        "category": "Cremas de peinar",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589326/react/cremapeinarargan_d4kvba.jpg",
+        "rating": {
+            "rate": 2.1,
+            "count": 430
+        }
+    },
+    {
+        "id": 5,
+        "title": "Acondicionador Fidelite pomo",
+        "price": 320,
+        "description": "Acondicionador fidelite keratin presentacion pomo x 240 ml.",
+        "category": "Shampoo y Acondicionador",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589326/react/conditioner-keratin_2_y2xhqn.jpg",
+        "rating": {
+            "rate": 4.6,
+            "count": 400
+        }
+    },
+    {
+        "id": 6,
+        "title": "Crema de peinar MAV",
+        "price": 350,
+        "description": "Crema de pienar marca MAV, presentacion x 330ml.",
+        "category": "Cremas de peinar",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589326/react/crema_mav_ymw0sq.png",
+        "rating": {
+            "rate": 3.9,
+            "count": 70
+        }
+    },
+    {
+        "id": 7,
+        "title": "Guantes de nitrilo",
+        "price": 100,
+        "description": "Guantes de nitrilo negro, precio por par.",
+        "category": "Guantes",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589326/react/guantenitrilo_kxruew.jpg",
+        "rating": {
+            "rate": 3,
+            "count": 400
+        }
+    },
+    {
+        "id": 8,
+        "title": "Ionizado Nov",
+        "price": 500,
+        "description": "Ionizado marca Nov, 3 ampollas de 15ml c/u para completar el tratamiento",
+        "category": "Tratamientos",
+        "image": "https://res.cloudinary.com/dml2fdgug/image/upload/v1671589327/react/ionizado_yuiy9f.jpg",
+        "rating": {
+            "rate": 1.9,
+            "count": 100
+        }
+    }
+]
